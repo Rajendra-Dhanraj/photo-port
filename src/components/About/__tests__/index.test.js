@@ -20,3 +20,5 @@ describe("About component", () => {
     expect(asFragment()).toMatchSnapshot();
   });
 });
+
+// The index.test.js.snap file is a serialized version of the component's node structure, which includes elements, attributes, and text content. This file, stored in the __snapshots__ folder, will serve as the base model of the component's structure, and will be compared against new snapshots that are created by the asFragment function.
